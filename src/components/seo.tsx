@@ -13,8 +13,8 @@ function Seo({
   title,
   children,
 }: {
-  description?: string;
-  title: string;
+  description?: string
+  title: string
   children?: React.ReactNode
 }) {
   const { site } = useStaticQuery(
