@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={data?.site?.siteMetadata?.title || `Title`} />
       <Main>{children}</Main>
     </ThemeProvider>
   )
